@@ -1,0 +1,41 @@
+{
+  "name": "koa2blob",
+  "version": "1.0.0",
+  "description": "基于koa2的博客项目",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LTMana/koa2blob.git"
+  },
+  "author": "LTMana",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LTMana/koa2blob/issues"
+  },
+  "homepage": "https://github.com/LTMana/koa2blob#readme",
+  "dependencies": {
+    "config-lite": "^2.0.0",
+    "ejs": "^2.5.6",
+    "koa": "^2.3.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-mysql-session": "^0.0.2",
+    "koa-router": "^7.2.1",
+    "koa-session-minimal": "^3.0.4",
+    "koa-static": "^4.0.0",
+    "koa-static-cache": "^5.1.1",
+    "koa-views": "^6.0.2",
+    "markdown-it": "^8.4.0",
+    "md5": "^2.2.1",
+    "moment": "^2.18.1",
+    "mysql": "^2.13.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.16.0",
+    "eslint-plugin-html": "^4.0.1",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
