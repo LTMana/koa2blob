@@ -24,7 +24,6 @@ router.post('/signup', async(ctx, next) => {
     avator: ctx.request.body.avator
   }
   let result = userModel.findDataByName(user.name)
-  console.log(result)
   if (result.length) {
     try {
       throw Error('用户已经存在')

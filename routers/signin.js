@@ -5,7 +5,7 @@ const checkNotLogin = require('../middlewares/check.js').checkNotLogin
 const checkLogin = require('../middlewares/check.js').checkLogin
 
 router.get('/signin', async(ctx, next) => {
-    await checkNotLogin(ctx)
+    checkNotLogin(ctx)
     await ctx.render('signin', {
         session: ctx.session,
     })
